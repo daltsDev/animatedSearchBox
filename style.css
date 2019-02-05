@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background:#e66465;
+}
+.searchBox:hover > .searchText {
+  width: 240px;
+  margin: 2px;
+}
+.searchBox:hover> .searchBtn {
+  background: #e66465;
+  color: white;
+}
+.searchBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ background: #7f8c8d;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.searchBtn {
+  color: #e66465;
+  float: right;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.searchText {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0px;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
